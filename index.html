@@ -1,0 +1,34 @@
+Create a complete, single-file 2D/2.5D top-down hunting simulation game optimized for PC browsers/desktop, featuring smooth mechanics, balanced economy, and immersive audio-visuals. The style should be top-down/isometric similar to games like "How to Fish", ensuring the screen view is wide, perfect, and not cramped.
+
+### 1. Environments & Biomes
+- **Forest (Woods):** Dense trees, foliage, and natural hiding spots for big and small game. Animals present: Roe Deer (შველი), Wolf (მგელი), Jackal (ტურა), Rabbit (კურდღელი), and Pheasant (ხოხობი) in its specific habitat.
+- **Fields (ყანები):** Open agricultural fields where Quail (მწყერი) reside.
+
+### 2. Fauna & AI Behaviors
+- **Animals & Birds:** Roe Deer, Wolf, Jackal, Rabbit, Pheasant, and Quail. All must have realistic ambient sounds/calls.
+- **Quail & Dog Mechanics:** 
+  - A hunting dog accompanies the player to search for Quail in the fields.
+  - When the dog finds a quail, an exclamation mark (!) appears above the dog, and it freezes/points for 3 seconds to alert the player.
+  - At the 5th second, the quail flushes/takes off into the air.
+- **Blood Effects:** Subtle, realistic blood hit effects upon successful shots.
+
+### 3. Weapons & Ballistics (5 Types Total)
+- **Selection:** 5 distinct shotguns, including 2-barrel shotguns, wide-spread shotguns, and Turkish-style shotguns (e.g., modeled/inspired by the "GT1").
+- **Ammunition Options:** 
+  - Buckshot (კარტეჩი) for larger game.
+  - #10 Birdshot (10 ნომერი) specifically for birds.
+- **Aiming Mechanics:** No simple crosshair dot. Aiming mimics real hunting shotguns—the player looks down the barrel/rib of the gun mounted to the shoulder, tracking targets fluidly.
+- **Sound Effects:** Deep, realistic shotgun blast and reloading audio.
+
+### 4. Gameplay, Movement & Controls
+- **Player Movement:** Includes standard movement and a fast-sprint option.
+- **Player Profile:** Ability to enter/set a player name at the start.
+- **Dog Retrieve System:** The hunting dog automatically retrieves downed birds (quail/pheasant) and brings them back to the player. It does not retrieve large quad-footed game (žiq/nadiri).
+- **Save System:** Automatic game progression and inventory saving (LocalStorage or local file save so progress isn't lost).
+
+### 5. Economy & Shop System
+- **Shop:** A dedicated store where players can purchase different shotguns and upgrade/buy hunting dogs.
+- **Sell Mechanics:** Players can sell harvested game/meat/feathers earned from successful hunts.
+- **Economy Balance:** Prices for items, weapons, and selling loot must be well-balanced and fair for long-term progression.
+
+Please generate the complete, ready-to-run game code (HTML, CSS, and JavaScript combined in a single file) with clean architecture so it can be easily tested locally and hosted on GitHub Pages.
